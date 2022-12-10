@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: auto;
+    width: auto;
+    margin-bottom: auto;
+    background-image: ###;
+    background-size: auto;
+    background-position: auto;
+}
