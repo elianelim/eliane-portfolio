@@ -4,11 +4,27 @@
     margin: 0;
 }
 
-.div hero {
-    height: 800px;
+.hero {
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(./Pictures/Hero\ Image.jpg);
-    background-size: cover;
+    background-image: url(./Pictures/Hero\ Image\ IT\ background.jpg);
+    background-size: box;
     background-position: center;
+}
+/*should i use this or not?*/
+.project-img {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+/*please work on this*/
+a my-project {
+    text-decoration: none;
+}
+
+#github-logo {
+    border-image-source;: &#xf09b;
+    font-size: 24px;
 }
