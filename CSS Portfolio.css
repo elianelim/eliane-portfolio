@@ -1,17 +1,43 @@
+:root {
+    --A:var(--A);
+    --B:var(--B);
+    --C: var(--C);
+}
+/*Reset CSS default setting*/
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+.header {
+    background: #13293d;
+}
+.section nav-bar  {
+    background-color: rgb(238, 15, 178);
+    color: whitesmoke;
 
+}
+.nav {
+    text-align: right;
+    float: right;
+    list-style: none;
+}
+
+/*Check this properties i copy from challenge 1*/
 .hero {
-    height: 300px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(./Pictures/Hero\ Image\ IT\ background.jpg);
-    background-size: box;
+    background-size: cover;
     background-position: center;
 }
+.my-pic {
+    height: 100px;
+    
+   
+}
+
 /*should i use this or not?*/
 .project-img {
     border: 1px solid;
@@ -23,7 +49,7 @@
 a my-project {
     text-decoration: none;
 }
-
+/*Footer*/
 #github-logo {
     border-image-source;: &#xf09b;
     font-size: 24px;
