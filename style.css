@@ -1,0 +1,48 @@
+:root {
+    --A:var(--A);
+    --B:var(--B);
+    --C: var(--C);
+}
+/*Reset CSS default setting*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*whole body content please choose other color*/
+body {
+    background: #080808;
+    color: #fff;
+}
+/*paragraph*/
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    display: inline-block
+
+}
+nav ul li {
+  list-style-type: none; 
+}
+/*Nav a tag fonts*/
+a {
+    color: #fff;
+    
+}
+/*Hero Image looks good*/
+#background-img {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(Pictures/IT\ background.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+
+/*Footer*/
