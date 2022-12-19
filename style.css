@@ -10,6 +10,12 @@
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* css3 when anchor directs to an element, it will scroll to it smoothly. */
+html{
+    scroll-behavior: smooth;
+}
+
 /*whole body content please choose other color*/
 body {
     background: #080808;
@@ -20,7 +26,6 @@ p {
     font-size: 16px;
     margin-top: 10%;
 }
-/*I am lost here why its not in a line with the buttons*/
 h1 {
     font-size: 32px;
     display: inline-block
@@ -67,7 +72,6 @@ a {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 50px;
-    /*Check this*/
     background-image: url(Pictures/IT\ background.jpg);
     background-size: cover;
     background-position: center;
@@ -106,32 +110,56 @@ a {
     text-align: center;
     margin-top: 10%;
 }
-/*Horiseon Refactor Project*/
-/*help!!! when hover heading disapper*/
+/*All project headings*/
 .my-portfolio h3 {
     font-size: 24px;
     margin-top: 5%;  
 }
-    
 
-
-
-.project-1 {
-    
+.my-portfolio{
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-.project-2 {
-    
+.sectionBanner{
+    margin-top: 20px;
+    padding-left:20px;
+    border-top: 2px solid white;
+}
+.projectCard {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    margin:15px;
+    box-shadow: 2px 2px 8px 3px rgb(252 255 158 / 55%);
 }
 
-.project-3 {
-
+.projectCard{
+    color: black;
 }
 
-.project-4 {
-
+.projectImageWrapper{
+    display:flex;
 }
+
+.projectImageWrapper a{
+    margin: auto;
+}
+
+.projectCard h3{
+    text-align:center;
+}
+
+@media screen and (max-width: 768px) {
+    section,
+    div {
+      flex-direction: column;
+    }
+  }
 
 #hover-img {
     padding: 50px;
@@ -145,5 +173,40 @@ a {
     transform: scale(1.5); 
 }
 
+
+
+/*Media screen width of 768px and flex direction to column*/
+
 /*Footer*/
-/*why linkedin and github is in purple*/
+.contactme {
+    background: #000;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contactmeWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactme h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footerIcon{
+    width:30px;
+    height:30px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+
+.contactNum{
+    margin-top:auto;
+    margin-bottom:auto;
+}
