@@ -1,9 +1,7 @@
 # Eliane's Portfolio
 
 ## Description
-
 This is my portfolio created for the Bootcamp second assignment. It contains HTML and CSS in order to complete this assignment. 
-
 
 Learning all the codes during my HTML and CSS makes me eager to put my codes in action! It is amazing how this codes makes a webpage looks so beautiful. 
 
@@ -19,7 +17,6 @@ This project is built for me to put what I have taken from my HTML and CSS lesso
 * I have also set the responsive mode to various screens so it can be viewed with different screen sizes.
 * Always including "alt" tag after every image
 
-
 ## Screenshot
 ![Screenshot-Portfolio](../Challenge%20Project%202/Pictures/Screenshot-Portfolio.png)
 
@@ -27,7 +24,9 @@ This project is built for me to put what I have taken from my HTML and CSS lesso
 Index.html, assets folders has been deployed to Github. The link to the sites are as below.
 
 ## Links
+[Link to my Portfolio webpage](https://elianelim.github.io/eliane-portfolio/)
 
+[Link to Repositiory](https://github.com/elianelim/eliane-portfolio.git)
 
 
 ## Credits
